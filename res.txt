@@ -1,0 +1,329 @@
+  Running Function GA Using Different Initial Population
+  	-Selection Standard: 25% 
+  	-Mutation Rate:      20% 
+  	-Depth of Searching: 10 
+  Number of Unique Solutions Found and Running Time as followed: 
+*Running time is :  10.8515548706 # of results found: 0
+*Running time is :  10.9473600388 # of results found: 0
+    Solution: 27368514 scoring: 100.0
+*Running time is :  10.8873038292 # of results found: 0
+*Running time is :  10.9379930496 # of results found: 0
+*Running time is :  10.9318528175 # of results found: 0
+*Running time is :  10.8481519222 # of results found: 0
+    Solution: 35286471 scoring: 100.0
+*Running time is :  10.823417902 # of results found: 0
+*Running time is :  10.8297140598 # of results found: 0
+*Running time is :  10.8313679695 # of results found: 0
+*Running time is :  10.8915441036 # of results found: 0
+*Running time is :  11.0560338497 # of results found: 0
+*Running time is :  11.1981320381 # of results found: 0
+*Running time is :  11.2123169899 # of results found: 0
+*Running time is :  11.0444891453 # of results found: 0
+*Running time is :  11.0180280209 # of results found: 0
+*Running time is :  10.8746228218 # of results found: 0
+    Solution: 42586137 scoring: 100.0
+    Solution: 25741863 scoring: 100.0
+*Running time is :  11.5880999565 # of results found: 0
+    Solution: 27368514 scoring: 100.0
+*Running time is :  11.0705430508 # of results found: 0
+    Solution: 26831475 scoring: 100.0
+    Solution: 51863724 scoring: 100.0
+    Solution: 26831475 scoring: 100.0
+*Running time is :  10.9258491993 # of results found: 0
+*Running time is :  11.156443119 # of results found: 0
+    Solution: 36814752 scoring: 100.0
+*Running time is :  11.218309164 # of results found: 0
+*Running time is :  11.2465138435 # of results found: 0
+*Running time is :  11.1358828545 # of results found: 0
+*Running time is :  11.111276865 # of results found: 0
+    Solution: 51863724 scoring: 100.0
+    Solution: 51863724 scoring: 100.0
+*Running time is :  10.8766798973 # of results found: 0
+*Running time is :  11.1035220623 # of results found: 0
+*Running time is :  11.0545139313 # of results found: 0
+*Running time is :  10.8479640484 # of results found: 0
+*Running time is :  10.8485741615 # of results found: 0
+*Running time is :  10.8489229679 # of results found: 0
+*Running time is :  10.8613450527 # of results found: 0
+*Running time is :  10.944633007 # of results found: 0
+*Running time is :  11.0639522076 # of results found: 0
+*Running time is :  11.2051451206 # of results found: 0
+*Running time is :  11.4123849869 # of results found: 0
+*Running time is :  11.1360721588 # of results found: 0
+    Solution: 62714853 scoring: 100.0
+*Running time is :  11.1006450653 # of results found: 0
+*Running time is :  11.0061330795 # of results found: 0
+    Solution: 46827135 scoring: 100.0
+    Solution: 24683175 scoring: 100.0
+*Running time is :  10.9795410633 # of results found: 0
+*Running time is :  10.915569067 # of results found: 0
+*Running time is :  10.9903609753 # of results found: 0
+*Running time is :  11.1416559219 # of results found: 0
+    Solution: 63728514 scoring: 100.0
+*Running time is :  10.9877831936 # of results found: 0
+    Solution: 64718253 scoring: 100.0
+    Solution: 42751863 scoring: 100.0
+*Running time is :  10.9829170704 # of results found: 0
+*Running time is :  11.0889151096 # of results found: 0
+*Running time is :  10.9393470287 # of results found: 0
+    Solution: 42736815 scoring: 100.0
+*Running time is :  10.9980771542 # of results found: 0
+*Running time is :  10.8345620632 # of results found: 0
+    Solution: 46152837 scoring: 100.0
+*Running time is :  10.8980867863 # of results found: 0
+*Running time is :  10.8597860336 # of results found: 0
+*Running time is :  10.9973869324 # of results found: 0
+*Running time is :  10.9419689178 # of results found: 0
+*Running time is :  10.8847708702 # of results found: 0
+    Solution: 53172864 scoring: 100.0
+*Running time is :  10.8393058777 # of results found: 0
+    Solution: 36418572 scoring: 100.0
+    Solution: 52617483 scoring: 100.0
+*Running time is :  10.8388638496 # of results found: 0
+*Running time is :  10.8336110115 # of results found: 0
+*Running time is :  10.8301260471 # of results found: 0
+*Running time is :  10.8380539417 # of results found: 0
+    Solution: 63741825 scoring: 100.0
+*Running time is :  10.8392879963 # of results found: 0
+    Solution: 64285713 scoring: 100.0
+*Running time is :  10.8350830078 # of results found: 0
+    Solution: 71386425 scoring: 100.0
+*Running time is :  10.8369648457 # of results found: 0
+    Solution: 63175824 scoring: 100.0
+*Running time is :  10.9521648884 # of results found: 0
+*Running time is :  10.849834919 # of results found: 0
+*Running time is :  10.8363189697 # of results found: 0
+    Solution: 47382516 scoring: 100.0
+*Running time is :  10.8102841377 # of results found: 0
+    Solution: 41582736 scoring: 100.0
+*Running time is :  10.8124229908 # of results found: 0
+    Solution: 15863724 scoring: 100.0
+*Running time is :  10.8031871319 # of results found: 0
+*Running time is :  10.807488203 # of results found: 0
+*Running time is :  10.8117899895 # of results found: 0
+*Running time is :  10.8070960045 # of results found: 0
+*Running time is :  10.8442988396 # of results found: 0
+*Running time is :  10.8671488762 # of results found: 0
+*Running time is :  10.8197238445 # of results found: 0
+    Solution: 84136275 scoring: 100.0
+*Running time is :  10.8287000656 # of results found: 0
+    Solution: 25713864 scoring: 100.0
+*Running time is :  10.8479590416 # of results found: 0
+*Running time is :  10.8394739628 # of results found: 0
+*Running time is :  10.8287000656 # of results found: 0
+*Running time is :  10.8271729946 # of results found: 0
+    Solution: 57138642 scoring: 100.0
+*Running time is :  10.8425729275 # of results found: 0
+    Solution: 72631485 scoring: 100.0
+*Running time is :  10.8285329342 # of results found: 0
+    Solution: 62714853 scoring: 100.0
+*Running time is :  10.8117668629 # of results found: 0
+*Running time is :  10.8123421669 # of results found: 0
+*Running time is :  10.8016750813 # of results found: 0
+    Solution: 36275184 scoring: 100.0
+*Running time is :  10.8297410011 # of results found: 0
+    Solution: 63728514 scoring: 100.0
+    Solution: 63728514 scoring: 100.0
+*Running time is :  10.8357441425 # of results found: 0
+    Solution: 51468273 scoring: 100.0
+*Running time is :  10.8839020729 # of results found: 0
+    Solution: 36271485 scoring: 100.0
+*Running time is :  10.9344398975 # of results found: 0
+    Solution: 64285713 scoring: 100.0
+*Running time is :  10.9261209965 # of results found: 0
+*Running time is :  11.020868063 # of results found: 0
+*Running time is :  10.8891170025 # of results found: 0
+*Running time is :  11.1747608185 # of results found: 0
+*Running time is :  11.4787259102 # of results found: 0
+*Running time is :  11.0605258942 # of results found: 0
+*Running time is :  10.9823329449 # of results found: 0
+    Solution: 36428571 scoring: 100.0
+    Solution: 36428571 scoring: 100.0
+    Solution: 72418536 scoring: 100.0
+    Solution: 36428571 scoring: 100.0
+*Running time is :  11.0107290745 # of results found: 0
+*Running time is :  10.8423149586 # of results found: 0
+*Running time is :  10.8400130272 # of results found: 0
+    Solution: 35841726 scoring: 100.0
+*Running time is :  10.8274970055 # of results found: 0
+    Solution: 47185263 scoring: 100.0
+*Running time is :  10.8394520283 # of results found: 0
+*Running time is :  10.8466320038 # of results found: 0
+*Running time is :  10.8451178074 # of results found: 0
+*Running time is :  10.8614661694 # of results found: 0
+    Solution: 51468273 scoring: 100.0
+*Running time is :  10.8473620415 # of results found: 0
+*Running time is :  10.8356940746 # of results found: 0
+*Running time is :  10.8352491856 # of results found: 0
+    Solution: 61528374 scoring: 100.0
+*Running time is :  10.8413479328 # of results found: 0
+*Running time is :  10.8356940746 # of results found: 0
+    Solution: 15863724 scoring: 100.0
+    Solution: 57142863 scoring: 100.0
+*Running time is :  10.867839098 # of results found: 0
+*Running time is :  10.8344888687 # of results found: 0
+    Solution: 17582463 scoring: 100.0
+*Running time is :  10.8623352051 # of results found: 0
+    Solution: 47382516 scoring: 100.0
+*Running time is :  10.8541100025 # of results found: 0
+    Solution: 48531726 scoring: 100.0
+*Running time is :  10.8787848949 # of results found: 0
+*Running time is :  11.1009428501 # of results found: 0
+*Running time is :  10.9352459908 # of results found: 0
+    Solution: 72418536 scoring: 100.0
+    Solution: 72418536 scoring: 100.0
+*Running time is :  10.9008500576 # of results found: 0
+*Running time is :  10.8845939636 # of results found: 0
+*Running time is :  10.8574681282 # of results found: 0
+    Solution: 26831475 scoring: 100.0
+    Solution: 26831475 scoring: 100.0
+*Running time is :  10.8445279598 # of results found: 0
+*Running time is :  10.8164010048 # of results found: 0
+*Running time is :  10.8466129303 # of results found: 0
+*Running time is :  10.8193929195 # of results found: 0
+    Solution: 73825164 scoring: 100.0
+*Running time is :  10.8804311752 # of results found: 0
+    Solution: 35841726 scoring: 100.0
+*Running time is :  10.87236619 # of results found: 0
+*Running time is :  10.8848669529 # of results found: 0
+*Running time is :  10.8513400555 # of results found: 0
+*Running time is :  10.8274209499 # of results found: 0
+*Running time is :  10.8457930088 # of results found: 0
+*Running time is :  10.8391709328 # of results found: 0
+*Running time is :  10.8403630257 # of results found: 0
+    Solution: 52814736 scoring: 100.0
+    Solution: 52814736 scoring: 100.0
+*Running time is :  10.8154039383 # of results found: 0
+*Running time is :  10.848361969 # of results found: 0
+*Running time is :  10.8236711025 # of results found: 0
+    Solution: 73168524 scoring: 100.0
+    Solution: 73168524 scoring: 100.0
+    Solution: 31758246 scoring: 100.0
+    Solution: 31758246 scoring: 100.0
+    Solution: 74258136 scoring: 100.0
+*Running time is :  10.8963811398 # of results found: 0
+*Running time is :  10.9046709538 # of results found: 0
+    Solution: 17468253 scoring: 100.0
+    Solution: 17468253 scoring: 100.0
+*Running time is :  11.0062279701 # of results found: 0
+    Solution: 35714286 scoring: 100.0
+*Running time is :  10.9340150356 # of results found: 0
+*Running time is :  11.5390138626 # of results found: 0
+*Running time is :  11.0555460453 # of results found: 0
+*Running time is :  10.832545042 # of results found: 0
+*Running time is :  11.0057349205 # of results found: 0
+*Running time is :  10.9231090546 # of results found: 0
+*Running time is :  10.9033300877 # of results found: 0
+*Running time is :  10.8862938881 # of results found: 0
+*Running time is :  10.8555119038 # of results found: 0
+*Running time is :  11.0704360008 # of results found: 0
+*Running time is :  11.6961150169 # of results found: 0
+    Solution: 35841726 scoring: 100.0
+    Solution: 41582736 scoring: 100.0
+    Solution: 35841726 scoring: 100.0
+*Running time is :  11.261808157 # of results found: 0
+*Running time is :  11.0706131458 # of results found: 0
+    Solution: 17582463 scoring: 100.0
+*Running time is :  11.2281119823 # of results found: 0
+    Solution: 57263184 scoring: 100.0
+*Running time is :  10.9978399277 # of results found: 0
+*Running time is :  10.8359658718 # of results found: 0
+*Running time is :  10.9368100166 # of results found: 0
+    Solution: 63741825 scoring: 100.0
+*Running time is :  10.8510811329 # of results found: 0
+    Solution: 64285713 scoring: 100.0
+    Solution: 35714286 scoring: 100.0
+*Running time is :  10.8651878834 # of results found: 0
+*Running time is :  10.8788340092 # of results found: 0
+*Running time is :  10.8621180058 # of results found: 0
+*Running time is :  10.8670790195 # of results found: 0
+*Running time is :  10.8363389969 # of results found: 0
+    Solution: 57138642 scoring: 100.0
+    Solution: 36815724 scoring: 100.0
+*Running time is :  10.943780899 # of results found: 0
+*Running time is :  10.9401290417 # of results found: 0
+*Running time is :  11.1839859486 # of results found: 0
+*Running time is :  11.3623490334 # of results found: 0
+*Running time is :  11.6341199875 # of results found: 0
+    Solution: 37286415 scoring: 100.0
+*Running time is :  11.1488828659 # of results found: 0
+*Running time is :  10.9462230206 # of results found: 0
+    Solution: 62713584 scoring: 100.0
+    Solution: 62713584 scoring: 100.0
+*Running time is :  11.2353219986 # of results found: 0
+*Running time is :  11.1821811199 # of results found: 0
+    Solution: 36814752 scoring: 100.0
+*Running time is :  10.9269039631 # of results found: 0
+*Running time is :  11.236260891 # of results found: 0
+    Solution: 27368514 scoring: 100.0
+*Running time is :  11.2483239174 # of results found: 0
+*Running time is :  11.0553731918 # of results found: 0
+*Running time is :  10.9298868179 # of results found: 0
+*Running time is :  10.8887660503 # of results found: 0
+*Running time is :  10.8773241043 # of results found: 0
+*Running time is :  10.8481068611 # of results found: 0
+    Solution: 17468253 scoring: 100.0
+    Solution: 17468253 scoring: 100.0
+    Solution: 17468253 scoring: 100.0
+*Running time is :  10.8381021023 # of results found: 0
+*Running time is :  10.9034559727 # of results found: 0
+*Running time is :  10.9136929512 # of results found: 0
+*Running time is :  11.0321319103 # of results found: 0
+*Running time is :  10.9620409012 # of results found: 0
+*Running time is :  10.9211809635 # of results found: 0
+*Running time is :  10.9095199108 # of results found: 0
+    Solution: 35286471 scoring: 100.0
+*Running time is :  10.8765749931 # of results found: 0
+*Running time is :  10.8496499062 # of results found: 0
+*Running time is :  10.9009709358 # of results found: 0
+*Running time is :  10.8796188831 # of results found: 0
+*Running time is :  10.8811841011 # of results found: 0
+    Solution: 58417263 scoring: 100.0
+*Running time is :  10.8683960438 # of results found: 0
+*Running time is :  10.9150907993 # of results found: 0
+*Running time is :  10.8343839645 # of results found: 0
+*Running time is :  10.8778040409 # of results found: 0
+*Running time is :  10.8646080494 # of results found: 0
+*Running time is :  10.8580741882 # of results found: 0
+*Running time is :  10.8413569927 # of results found: 0
+    Solution: 51863724 scoring: 100.0
+*Running time is :  10.9150571823 # of results found: 0
+    Solution: 63741825 scoring: 100.0
+    Solution: 63741825 scoring: 100.0
+    Solution: 63741825 scoring: 100.0
+    Solution: 63175824 scoring: 100.0
+    Solution: 63741825 scoring: 100.0
+*Running time is :  10.916998148 # of results found: 0
+*Running time is :  10.8936500549 # of results found: 0
+    Solution: 64285713 scoring: 100.0
+*Running time is :  10.8713788986 # of results found: 0
+*Running time is :  10.8917279243 # of results found: 0
+*Running time is :  10.8883061409 # of results found: 0
+    Solution: 63724815 scoring: 100.0
+*Running time is :  10.8799591064 # of results found: 0
+*Running time is :  10.8988678455 # of results found: 0
+*Running time is :  10.9034740925 # of results found: 0
+    Solution: 24683175 scoring: 100.0
+*Running time is :  10.9733018875 # of results found: 0
+*Running time is :  11.4889419079 # of results found: 0
+*Running time is :  11.1704969406 # of results found: 0
+*Running time is :  11.1574909687 # of results found: 0
+*Running time is :  11.0251429081 # of results found: 0
+    Solution: 42736815 scoring: 100.0
+    Solution: 42736815 scoring: 100.0
+    Solution: 42736815 scoring: 100.0
+*Running time is :  11.0576469898 # of results found: 0
+    Solution: 57142863 scoring: 100.0
+    Solution: 47382516 scoring: 100.0
+*Running time is :  10.913105011 # of results found: 0
+    Solution: 24683175 scoring: 100.0
+*Running time is :  10.9401199818 # of results found: 0
+    Solution: 64713528 scoring: 100.0
+    Solution: 64713528 scoring: 100.0
+    Solution: 64713528 scoring: 100.0
+*Running time is :  10.8948709965 # of results found: 0
+    Solution: 68241753 scoring: 100.0
+*Running time is :  10.8850660324 # of results found: 0
+*Running time is :  10.8790769577 # of results found: 0
+*Running time is :  10.9187269211 # of results found: 0
+*Running time is :  11.0529367924 # of results fou
