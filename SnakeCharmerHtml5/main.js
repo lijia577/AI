@@ -33,8 +33,60 @@ Sc = {
 	animLose:function(){},
 	animNormal:function(){},
 	closeAnim:function(){},
-	p:function(t){console.log(t);}
-	};
+	p:function(t){console.log(t);},
+	hole:{
+		draw:function(){},
+		press:function(){},
+		perform:function(){},
+		yourTurn:function(){}
+	}
+};
+
+//First, you have show tone, which takes a string of number
+//then you have check tone, which turn input into string and check.
+Sc.hole.draw=function(x){
+	Sc.ctx.beginPath();
+	Sc.ctx.arc( x, 250, 20, 0, 2*Math.PI, false);
+	Sc.ctx.stroke();
+};
+
+Sc.hole.yourTurn=function(){
+	var a = Sc.hole.draw(50);
+	var b = Sc.hole.draw(150);
+	var c = Sc.hole.draw(250);
+
+};
+
+Sc.hole.perform=function(str,sec){
+	var x = 0, itv=null;
+	itv=setInterval(function(){
+		Sc.hole.press(str[x]);
+		Sc.p(x);
+		x++;
+		if(x==str.length) clearInterval(itv);	
+	},sec);
+};
+
+Sc.hole.press=function(x){
+ 	if(x>3||!x||x<=0) throw('Sc.hole.press, X is too large');
+	Sc.ctx.clearRect(0,Sc.canvas.height-100,Sc.canvas.width,Sc.canvas.height);	
+	Sc.hole.draw(50);
+	Sc.hole.draw(150);
+	Sc.hole.draw(250);
+	if(x==1){
+		Sc.ctx.beginPath();
+		Sc.ctx.arc( 50, 250, 20, 0 ,2*Math.PI, false);
+		Sc.ctx.fill();	
+	}else if(x==2){
+		Sc.ctx.beginPath();
+		Sc.ctx.arc(150, 250, 20, 0 ,2*Math.PI, false);
+		Sc.ctx.fill();	
+	}else{
+		Sc.ctx.beginPath();
+		Sc.ctx.arc(250, 250, 20, 0 ,2*Math.PI, false);
+		Sc.ctx.fill();
+	}
+};
 
 Sc.loadImage = function(source,target){
 	var i=0;
@@ -65,7 +117,7 @@ Sc.animNormal = function(){
 	if(delta>(1000/Sc.fps)){
 		Sc.lastAnimTime = now - (delta % (1000/Sc.fps));
 		//render
-		Sc.ctx.clearRect(0,0,Sc.canvas.width,Sc.canvas.height);
+		Sc.ctx.clearRect(0,0,Sc.canvas.width,Sc.canvas.height-100);
 		Sc.ctx.drawImage(Sc.boyArr[Sc.frame%2],0,0);
 		Sc.ctx.drawImage(Sc.snakeArr[Sc.frame%2],60,60);
 		Sc.frame++;
@@ -81,7 +133,7 @@ Sc.animLose = function(){
 	if(delta>(1000/Sc.fps)){
 		Sc.lastAnimTime = now - (delta % (1000/Sc.fps));
 		//render
-		Sc.ctx.clearRect(0,0,Sc.canvas.width,Sc.canvas.height);
+		Sc.ctx.clearRect(0,0,Sc.canvas.width,Sc.canvas.height-100);
 		if(Sc.frame<4){
 			 Sc.ctx.drawImage(Sc.snakeArr[1],60,60);
 		      	 Sc.ctx.drawImage(Sc.boyArr[2],0,0);
@@ -92,7 +144,7 @@ Sc.animLose = function(){
 		if(Sc.frame==6)Sc.closeAnim(Sc.loseReq);
 		Sc.frame++;
 	}
-}
+};
 
 Sc.animWin = function(){
 	if(!Sc.lastAnimTime)Sc.lastAnimTime=Date.now();
@@ -103,7 +155,7 @@ Sc.animWin = function(){
 	if(delta>(1000/Sc.fps)){
 		Sc.lastAnimTime = now - (delta % (1000/Sc.fps));
 		//render
-		Sc.ctx.clearRect(0,0,Sc.canvas.width,Sc.canvas.height);
+		Sc.ctx.clearRect(0,0,Sc.canvas.width,Sc.canvas.height-100);
 		if(Sc.frame<4){
 			Sc.ctx.drawImage(Sc.boyArr[4],0,0);
 			Sc.ctx.drawImage(Sc.snakeArr[0],60,60);
@@ -152,6 +204,9 @@ Sc.setup=(function(){
 		},4000);
 	//	Sc.animLose();
 		Sc.animWin();
+		//Sc.hole.perform('32121',1000);
+		Sc.hole.yourTurn();
+		
 	})();
 	
 	Sc.loadImage(Sc.rawSnakeArr,Sc.snakeArr);
