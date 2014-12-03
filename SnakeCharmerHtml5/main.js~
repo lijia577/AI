@@ -1,5 +1,3 @@
-Sc = {
-	startBtn:document.getElementById('start'),
 	canvas:document.getElementById('canvas'),
 	ctx:document.getElementById('canvas').getContext('2d'),
 	mainMenu:document.getElementById('mainMenu'),
