@@ -12,6 +12,16 @@ file indicator for the given stream. You can use it as the terminator in infin-
 ite loops.
 
 4. int ferror(FILE *stream) +2
-   Works with clearerr(). Returns non-zero value if the stream has an error. O:
+  Works with clearerr(). Returns non-zero value if the stream has an error. O:
 it tests error indicator for the given stream.
 
+5. int fflush(FILE *stream)
+  Works with setvbuf(FILE *stream,buff,mode,num) function. You use string buff
+to store stuff in stream for the moment. Then, depending on the mode; _IOFBF or
+_IOLBF or _IONBF (Full, Line, No BuFfering). It will release stuff in the buff.
+O: the function flushes the output buffer of a stream. On success, it returns 0
+otherwise it returns EOF and error indicator is set.
+
+6.int fgetpos(FILE *stream, fpos_t *pos)
+  Get the current file position *pos of the given stream. Return 0 on success,
+otherwise returns non-zero. 
