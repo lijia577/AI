@@ -1,0 +1,9 @@
+Q1. Given a handful files, write a function findWords, which 
+takes a file pointer and a word, return true if current file 
+contains the word. 
+
+Q2. I want to implement a data structure, or use a existing
+one, which acts like a set.
+
+
+

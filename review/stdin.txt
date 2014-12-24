@@ -1,0 +1,17 @@
+1. int fclose(FILE *stream)
+  Usually combines with fclose(). It flushes all the buffer and close the file
+pointer stream.
+
+2. void clearerr(FILE *stream) 
+  Usually works with ferror(). It will clear the error in the stream. O: it cl-
+ears error indicator or end of file indicator for the given stream.
+
+3. int foef(FILE *stream)
+  It returns non-zero if the given stream reaches end of file. It tests end of
+file indicator for the given stream. You can use it as the terminator in infin-
+ite loops.
+
+4. int ferror(FILE *stream) +2
+   Works with clearerr(). Returns non-zero value if the stream has an error. O:
+it tests error indicator for the given stream.
+
